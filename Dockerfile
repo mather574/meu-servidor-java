@@ -2,8 +2,8 @@ FROM eclipse-temurin:21-jdk
 
 WORKDIR /app
 
-COPY Servidor.java .
+COPY Jogo.java .
 
-RUN javac Servidor.java
+RUN javac Jogo.java
 
-CMD ["java", "Servidor"]
+CMD ["java", "Jogo"]

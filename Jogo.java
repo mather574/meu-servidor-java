@@ -4,7 +4,7 @@ import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
 
-public class Servidor {
+public class Jogo {
 
     public static void main(String[] args) throws IOException {
 

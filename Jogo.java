@@ -4,7 +4,7 @@ import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
 
-public class Servidor {
+public class Jogo {
 
     public static void main(String[] args) throws IOException {
 
@@ -88,7 +88,7 @@ public class Servidor {
 
                 <body>
 
-                    <h1>🎯 AIM TRAINER CS2</h1>
+                    <h1>AIM TRAINER CS2</h1>
 
                     <div id="placar">
                         Pontos: <span id="pontos">0</span>
@@ -303,12 +303,7 @@ public class Servidor {
 
         servidor.start();
 
-        System.out.println(
-            "Servidor ligado!"
-        );
-
-        System.out.println(
-            "Porta: " + porta
-        );
+        System.out.println("Servidor ligado!");
+        System.out.println("Porta: " + porta);
     }
 }

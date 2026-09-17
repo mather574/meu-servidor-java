@@ -1,0 +1,6 @@
+[build]
+builder = "RAILPACK"
+buildCommand = "javac Servidor.java"
+
+[deploy]
+startCommand = "java Servidor"
